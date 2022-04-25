@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/cookies": "^0.7.7",
     "@types/http-proxy": "^1.17.8",
+    "axios": "^0.26.1",
+    "cookies": "^0.8.0",
     "http-proxy": "^1.18.1",
     "next": "12.1.5",
     "next-absolute-url": "^1.2.2",
@@ -17,6 +20,7 @@
     "react-dom": "18.0.0"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/node": "17.0.24",
     "@types/react": "18.0.5",
     "@types/react-dom": "18.0.1",
