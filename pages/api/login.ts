@@ -44,7 +44,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
         // bắt sự kiện khi mà proxy có res trả về
         // on là apply cho tất cả req của proxy , once là aplly cho 1 req thôi
         proxy.once("proxyRes", handleLoginRes);
-  
+
         proxy.web(req, res, {
             target: process.env.API_URL,
             changeOrigin: true,
